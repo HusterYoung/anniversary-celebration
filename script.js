@@ -1,5 +1,5 @@
 // 照片数组 - 自动生成 images 文件夹中的所有照片路径
-const photos = Array.from({ length: 23 }, (_, i) => `images/photo${i + 1}.jpg`);
+const photos = Array.from({ length: 22 }, (_, i) => `images/photo${i + 1}.jpg`);
 
 // 星星生成配置
 const starConfig = {
