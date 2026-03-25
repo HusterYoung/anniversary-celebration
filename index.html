@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我们的一周年 ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 标题 -->
+        <h1 class="title">我们的一周年纪念日</h1>
+
+        <!-- 视频播放器 -->
+        <div class="video-container">
+            <video id="memoryVideo" autoplay loop muted playsinline>
+                <source src="memory-video.mp4" type="video/mp4">
+                您的浏览器不支持视频播放
+            </video>
+            <button id="volumeBtn" class="volume-btn" title="点击开启声音">🔇</button>
+        </div>
+
+        <!-- 星星容器 -->
+        <div id="starsContainer"></div>
+
+        <!-- 照片模态框 -->
+        <div id="photoModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modalImage" src="" alt="我们的回忆">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
